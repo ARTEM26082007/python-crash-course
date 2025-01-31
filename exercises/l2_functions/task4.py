@@ -2,6 +2,9 @@
 # This function should accept an Iterable as a parameter
 # and return its length
 
+def my_len(i) -> int:
+    return len(i)
+
 
 # Do not change the below's code
 if __name__ == "__main__":
