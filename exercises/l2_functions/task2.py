@@ -11,8 +11,8 @@ def join(a: str, b: str) ->str:
 
 # Do not change the below's code
 if __name__ == "__main__":
-    a, b = "Jon", "Doe"
+    a, b = "John", "Doi"
 
-    assert join(a, b) == "Jon Doe"
-    assert join(b, a) == "Doe Jon"
+    assert join(a, b) == "John Doi"
+    assert join(b, a) == "Doi John"
     assert join("aba", "baba") == "aba baba"
