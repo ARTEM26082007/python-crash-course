@@ -1,3 +1,5 @@
+from collections import Counter
+
 # Write a body of the function that counts
 # a character occurrences in a string and
 # returns a dictionary where key is a character
@@ -7,7 +9,7 @@
 # 1. "aabc" -> {"a": 2, "b": 1, "c": 1}
 # 2. "" -> {}
 def count_chars(s: str) -> dict[str, int]:
-    pass
+    return dict(Counter(s))
 
 
 # Do not change the below's code
